@@ -1,0 +1,12 @@
+/front-end/node_modules/
+/front-end/package-lock.json
+/front-end/yarn.lock
+/.idea/
+
+bridge/node_modules/
+bridge/build/
+services/node_modules/
+.DS_Store
+bridge/build
+bridge/node_modules
+.env

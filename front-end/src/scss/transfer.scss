@@ -1,0 +1,181 @@
+.nwchange{
+
+  font-size: 1.2em;
+   button{
+     border: 0;
+     padding: 10px 20px;
+     font-size: 16px;
+     cursor: pointer;
+   }
+}
+
+.transfer{
+display: flex;
+  justify-content: flex-start;
+  margin: 30px 0;
+  border-top: 1px solid #e8e8e8;
+  padding-top: 10px;
+  & > div{
+    padding-right: 30px;
+    box-sizing: border-box;
+    &:first-child{
+      flex-grow: 1;
+    }
+  }
+  .form-group{
+    width: 100%;
+    input{
+      width: 100%;
+    }
+  }
+  //label{
+  //  color: #8c8c8c;
+  //}
+}
+.input-group{
+  width:200px;
+  height: 70px;
+  border-bottom: 1px solid #e8e8e8;
+  position: relative;
+  &:hover{
+    border-bottom: 1px solid #000;
+  }
+  select{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  &:after{
+    font-family: FontAwesome;
+    content: "\f0d7";
+    width: 14px;
+    height: 8px;
+    position: absolute;
+    right: 0;
+    top: 23px;
+    pointer-events: none;
+  }
+}
+.form-group{
+  input{
+    height: 70px;
+    width: 200px;
+    border: 0;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0;
+  }
+}
+.inputtext-group{
+  height: 70px;
+  width: 200px;
+  border: 0;
+  border-bottom: 1px solid #e8e8e8;
+  line-height: 68px;
+}
+.tips{
+  padding-bottom: 20px;
+  color: #8c8c8c;
+}
+.btnGrop{
+  padding-bottom: 20px;
+}
+
+
+
+
+
+.transferTips{
+  color: #8c8c8c;
+  padding-bottom: 50px;
+}
+
+
+.modal{
+  width: 300px;
+  height: 200px;
+
+  z-index: 9999;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  margin:-100px 0 0 -150px ;
+  .modalheader {
+    padding: 30px 20px 5px ;
+    font-size: 16px;
+  }
+  .modalsection {
+    padding: 20px 0 0;
+  }
+  .modalClose {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    width: 30px;
+    height: 30px;
+    text-align: right;
+    color: #bbb;
+    font-size: 24px;
+    cursor: pointer
+  }
+  footer{
+    padding-top: 30px;
+    button {
+      width: 100%;
+      border-radius: 0;
+      padding: 10px 0;
+      text-transform: uppercase;
+    }
+  }
+}
+.modal2{
+  height: 120px;
+  .modalheader {
+    padding: 50px 20px;
+  }
+}
+
+button[disabled]{
+  background: #ddd!important;
+  border: 0;
+  &:focus, &:hover,&:hover::before,&::before{
+    background: #ddd!important;
+    border: 0;
+    color: #ffffff!important;
+    transform: none!important;
+
+  }
+}
+.nwchange{
+  button[disabled]{
+    color: #999999!important;
+    background: none!important;
+
+  }
+}
+.h1Icon{
+  font-size: 14px ;
+  vertical-align: middle;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.modal4{
+  width: 400px;
+  height: 100px;
+  line-height: 100px;
+  box-sizing: border-box;
+  text-align: center;
+  z-index: 9999;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  margin:-50px 0 0 -200px ;
+
+}

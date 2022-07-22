@@ -1,0 +1,29 @@
+@import "./kube.min.css";
+@import "./font-awesome.min.css";
+
+@import "./index";
+@import "./transfer";
+@import "./button";
+@import "./description";
+@import "./loading";
+@import "./success";
+
+
+*{
+  outline: none!important;
+  box-shadow: none!important;
+  &:focus{
+    outline: none!important;
+    box-shadow: none!important;
+  }
+}
+input{
+  &:focus,&:hover{
+   border-bottom: 1px solid #000!important;
+  }
+}
+li,ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
